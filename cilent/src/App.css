@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+h3{
+    font-weight: 600px;
+    text-align: center;
+    font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  color: darkslategray;
+}
+button{
+    padding: 5px 4px;
+    margin: 2px;
+    background-color: #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.green{
+    background-color: rgb(65, 209, 65);
+}
+.green:hover{
+    background-color: rgb(32, 88, 32);
+}
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color: rgb(179, 5, 5);
+}
+.blue
+{
+    background-color: rgba(22, 22, 248, 0.788);
+}
+.blue:hover{
+    background-color: rgb(8, 8, 163);
+}
+.input-search{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-search input{
+    width: 400px;
+    padding: 8px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.tablsearch{
+   width:100%;
+   border-collapse:collapse;
+   cursor: pointer;
+ 
+}
+.tablsearch th,
+.tablsearch td{
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+   
+}
+.tablsearch th{
+    background-color: #292929;
+    color: #ccc;
+}
+
+.modal{
+    display:block;
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+   height: 100%;
+   width: 100%;
+   background-color: (0,0,0,0.5);
+   overflow: auto;
+}  
+.modal-content{
+    background-color: beige;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    border:1px solid #888
+}
+.close{
+    color:black;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 10px;
+    border-radius: 4px;
+    padding: 2px;
+    float: right;
+    font-weight: 600px;
+    background-color: #ccc;
+}
+.close:hover{
+    background-color:rgb(126, 83, 83)
+}
+h2{
+   
+    text-align: center;
+    font-weight: 700;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.input-group label {
+    margin-bottom: 5px;
+    display: block;
+}
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.input-group button{
+    margin-top:10px;
+}
